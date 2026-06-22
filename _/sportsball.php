@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auston Montville : Sportsball</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #222222;">
+
+<div>
+	<a href="catdate" class="project_button project_button_left"><</a>
+</div>
+
+<div>
+	<a href="bossesforever2bro" class="project_button project_button_right">></a>
+</div>
+
+<div style="text-align: center;">
+
+	<div class="game_content">
+		<div style="text-align: center;">
+			<video style="max-width: 100%; height: 340px;" frameborder='0' scrolling='no' autoplay loop muted>
+				<source src='title_sportsball.mp4'></source>
+			</video>	
+		</div>
+		
+		<a href="http://www.nintendo.com/games/detail/aWTjaTaTib5jIi7ZoHC9yzrx8xk4RSIo" target="_blank" class="game_title"><h1>Sportsball</h1></a>
+		<p class="description_text">A combination of soccer, jousting, and flying birds. A competitive local multiplayer game that's as much fun to watch as it is to play.</p>
+
+		<h2>PROJECT INFO</h2>
+		<table>
+			<tr>
+				<td class="contribution_title">ROLES</td>
+				<td>Designer, Programmer, Artist</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">PLATFORMS</td>
+				<td>Wii U</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">RELEASE DATE</td>
+				<td>November 2014</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">START DATE</td>
+				<td>January 2014</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">TEAM SIZE</td>
+				<td>4</td>
+			</tr>
+		</table>
+
+		<h2>KEY CONTRIBUTIONS</h2>
+		<p class="contribution_text">	
+			<span class="contribution_title">SOLD OVER 70,000 COPIES</span><br>
+			Sold on the Wii U eShop through press outreach, exhibiting, and working with Nintendo.
+		</p>
+		<p class="contribution_text">	
+			<span class="contribution_title">BUILT COMPLETELY DETERMINISTIC REPLAY SYSTEM</span><br>
+			Built in Unity with playback from recorded inputs; supports backwards compatibility		
+		</p>
+		<p class="contribution_text">	
+			<span class="contribution_title">OPTIMIZED FOR 60FPS 1080P ON WII U</span><br>
+			Featuring custom 2D collision and a tight art pipeline keeping assets under the 1GB ram limit			
+		</p>
+		<p class="contribution_text">	
+			<span class="contribution_title">MANAGED HIGH LEVEL PLAYTESTING GROUP</span><br>
+			Frequent playtests with novice and experienced players allowed me to balance out 16 unique birds.
+		</p>
+	</div>
+</div>
+<?php
+include "includes/nav.php";
+?>
+</body>
+</html>

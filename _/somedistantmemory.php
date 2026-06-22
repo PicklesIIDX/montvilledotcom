@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auston Montville : Some Distant Memory</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #222222;">
+
+<div>
+	<a href="mazermaker" class="project_button project_button_left"><</a>
+</div>
+
+<div>
+	<a href="rapturerejects" class="project_button project_button_right">></a>
+</div>
+
+<div style="text-align: center;">
+
+	<div class="game_content">
+		<div style="text-align: center;">
+			<video style="max-width: 100%; height: 340px;" frameborder='0' scrolling='no' autoplay loop muted>
+				<source src='title_sdm.mp4'></source>
+			</video>	
+		</div>
+		
+		<a href="http://www.somedistantmemory.com" target="_blank" class="game_title"><h1>Some Distant Memory</h1></a>
+		<p class="description_text">A narrative adventure game about love, loss, and light.</p>
+
+		<h2>PROJECT INFO</h2>
+		<table>
+			<tr>
+				<td class="contribution_title">ROLES</td>
+				<td>Programmer</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">PLATFORMS</td>
+				<td>Windows, OSX, Nintendo Switch</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">RELEASE DATE</td>
+				<td>November 2019</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">START DATE</td>
+				<td>February 2019 (joined)</td>
+			</tr>
+			<tr>
+				<td class="contribution_title">TEAM SIZE</td>
+				<td>~10</td>
+			</tr>
+		</table>
+
+		<h2>KEY CONTRIBUTIONS</h2>
+		<p class="contribution_text">	
+			<span class="contribution_title">ALL TASKS WITHOUT CRUNCH</span><br>
+			I came in at the end of the project and worked with the team to close all tasks well before launch. No end of project crunch. We achieved this with a combination of proper scoping, distributing tasks to specialists, and maintaining a highly collaborative development.
+		</p>
+		<p class="contribution_text">	
+			<span class="contribution_title">LOCALIZATION</span><br>
+			Integrated an off the shelf solution and incorporated it into proprietary and purchased development tools. This allowed content creators to continue working in their current workflow while ensuring that all text was translated.
+		</p>
+		<p class="contribution_text">	
+			<span class="contribution_title">MULTIPLATFORM DEVELOPMENT</span><br>
+			Took ownership of ports to OSX and Nintendo Switch. Implemented all fixes required for Nintendo certification. Instructed publisher in the process of submitting our rom and eShop page. Notarized OSX app to satisfy Apple's latest requirements.
+		</p>
+	</div>
+</div>
+<?php
+include "includes/nav.php";
+?>
+</body>
+</html>
