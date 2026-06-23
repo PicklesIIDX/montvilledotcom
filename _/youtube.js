@@ -6,32 +6,32 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var documentId = 'player';
 var videoId = 'none';
 var controls = 0;
-var showInfo = 0;
-var modestBranding = 1;
 var loop = true;
 
 var player;
-function onYouTubeIframeAPIReady(){
+function onYouTubeIframeAPIReady() {
 	player = new YT.Player(documentId, {
-		videoId: videoId,
-		playerVars: {'controls':controls, 'showinfo':showInfo, 'modestbranding':modestBranding},
-		events: {
-			'onReady': onPlayerReady
-		}
+		videoId : videoId,
+		playerVars : {
+			'controls' : controls,
+			'rel' : 0,
+			'iv_load_policy' : 3,
+			'fs' : 0,
+			'disablekb' : 1
+		},
+		events : {'onReady' : onPlayerReady}
 	});
 }
 
-function playVideo(documentId, videoId, controls = 0, showInfo = 0, modestBranding = 1, loop = true){
+function playVideo(documentId, videoId, controls = 0, loop = true) {
 	this.documentId = documentId;
 	this.videoId = videoId;
 	this.controls = controls;
-	this.showInfo = showInfo;
-	this.modestBranding = modestBranding;
 	this.loop = loop;
 }
 
-function onPlayerReady(event){
-	player.loadPlaylist([this.videoId], 0, 0);
+function onPlayerReady(event) {
+	player.loadPlaylist([ this.videoId ], 0, 0);
 	player.mute();
 	player.setLoop(true);
 }
